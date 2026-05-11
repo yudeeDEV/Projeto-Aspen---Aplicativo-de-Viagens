@@ -1,23 +1,7 @@
 import React from 'react';
-import { 
-  View, 
-  Text, 
-  Image, 
-  ScrollView, 
-  TouchableOpacity, 
-} from 'react-native';
+import { View, Text, Image, ScrollView, TouchableOpacity, } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { 
-  ChevronLeft, 
-  Heart, 
-  Star, 
-  Wifi, 
-  Utensils, 
-  Bath, 
-  Wind, 
-  ArrowRight,
-  ChevronDown
-} from 'lucide-react-native';
+import { ChevronLeft, Heart, Star, Wifi, Utensils, Bath, Wind, ArrowRight, ChevronDown} from 'lucide-react-native';
 import { useColorScheme } from 'nativewind';
 
 const Details = ({ route, navigation }: any) => {

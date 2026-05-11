@@ -1,16 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, Switch, TouchableOpacity, ScrollView, Modal, TextInput } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { 
-  ChevronLeft, 
-  User, 
-  Moon, 
-  Globe, 
-  Bell, 
-  Shield, 
-  LogOut, 
-  ChevronRight 
-} from 'lucide-react-native';
+import { ChevronLeft, User, Moon, Globe, Bell, Shield, LogOut, ChevronRight } from 'lucide-react-native';
 import { useNavigation } from '@react-navigation/native';
 import { useColorScheme } from 'nativewind';
 
