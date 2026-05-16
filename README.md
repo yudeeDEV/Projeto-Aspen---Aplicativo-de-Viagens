@@ -94,5 +94,11 @@ meu-app/
 
 ---
 
+## Alunos 
+Yude de moura teixeira - 01781550
+Filipe do Nascimento Silva - 01651925
+David elronato sousa lima - 01769816
+Emeron Lucas de Sousa -01783512
+
 > **Nota Acadêmica:**  
 > Trabalho desenvolvido com foco nas melhores práticas de Componentização do React, Estilização Condicional, Tipagem (TS) e Gerenciamento de Layouts no React Native.

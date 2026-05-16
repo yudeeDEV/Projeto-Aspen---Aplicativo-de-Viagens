@@ -24,7 +24,6 @@ const Home = () => {
           <View className="flex-1 items-center pt-24">
             <Text 
               className="text-white text-8xl font-light" 
-              style={{ fontFamily: 'Aspen-Script' }} // Se tiver a fonte instalada
             >
               Aspen
             </Text>

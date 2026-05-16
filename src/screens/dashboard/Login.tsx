@@ -38,7 +38,7 @@ const Login = () => {
         >
           {/* Header */}
           <View className="mb-12 mt-10">
-            <Text className="text-5xl font-bold text-[#181718] dark:text-white mb-3" style={{ fontFamily: 'System' }}>
+            <Text className="text-5xl font-bold text-[#181718] dark:text-white mb-3">
               Aspen
             </Text>
             <Text className="text-gray-500 dark:text-gray-400 text-base font-medium">

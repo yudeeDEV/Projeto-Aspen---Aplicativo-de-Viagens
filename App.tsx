@@ -29,7 +29,10 @@ export default function App() {
         <NavigationContainer>
           <Stack.Navigator 
             initialRouteName="Login"
-            screenOptions={{ headerShown: false }} // Esconde a barra de título padrão
+            screenOptions={{ 
+              headerShown: false,
+              gestureEnabled: false // Desabilita o gesto para evitar o crash no React 19
+            }}
           >
             <Stack.Screen name="Login" component={Login} />
             <Stack.Screen name="Home" component={Home} />
